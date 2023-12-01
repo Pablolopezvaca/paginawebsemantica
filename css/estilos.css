@@ -1,0 +1,328 @@
+.contenido-adicional {
+    display: none;
+    overflow: hidden;
+}
+
+.mostrar-mas:checked ~ .contenido-adicional {
+    display: block;
+}
+
+.mostrar-mas-label {
+    cursor: pointer;
+    color: blue;
+}
+
+header {
+    margin: 0%;
+    background-color:  whitesmoke; /* Color de fondo para el header */
+    color: #000000; /* Color del texto en el header */
+    padding: 5%; /* Espaciado interno del header */
+    text-align: center;
+    height: fit-content; /* Altura del header */
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: 0%;
+    padding: 0%;
+    margin-block-start: 4%;
+}
+
+nav {
+    background-color: #a8caba;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 0%;
+    cursor: pointer;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav li {
+    margin: 0;
+    display: block;
+    font-size: 16px;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+    padding: 16px;
+}
+
+.dropbtn {
+    background-color:  #a8caba;
+    color: #000000;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+nav a {
+    display: block;
+    padding: 14px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -1%;
+    font-size: 2.2em;
+}
+
+
+.p1-index {
+    text-align:center;
+    align-items: center;
+}
+
+.section1-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: whitesmoke; /* Color de fondo para la sección*/
+    margin-top: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.section2-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: whitesmoke/*blanchedalmond; /* Color de fondo para la sección */
+}
+
+.img1-index {
+    max-width: 100%;
+    height: auto;
+    width: 5000px;
+    
+}
+
+.img2-index {
+    max-width: 30%; /* La imagen ocupa el 100% del ancho disponible */
+    height: auto;  /*Se ajusta automáticamente la altura */
+    float: right;   
+    margin-left: 2%; 
+}
+
+.img3-ecuadorUnDiaCaminata {
+    padding-left: 15%;
+}
+
+.body-ecuadorUnDiaCaminata {
+    display: flex; 
+}
+
+table {
+    border: 1px solid black; /* Borde de 1 píxel sólido en negro */
+    width: 30%; /* Ancho del 100% del contenedor */
+    border-collapse: collapse; /* Colapso de bordes */
+    font-size: smaller; /* Tamaño de fuente más pequeño */  
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 0.4%; 
+}
+
+.p2-index {
+    margin-top: 10px;
+    float: left;
+    margin-right: 1%x;
+    text-align: justify;
+}
+
+.contenido-adicional {
+    display: none;
+    margin-top: 1px;
+    color: #000000;
+}
+
+.mostrar-mas:checked + .contenido-adicional {
+    display: block;
+}
+
+.mostrar-mas-label {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.section3-index {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+    flex: 1; /* Cada sección tomará el mismo espacio disponible */
+    padding: 20px; /* Espaciado interno */
+    width: auto;
+    height: 500px;
+    display:flex;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.section4-index {
+    background-color: whitesmoke;
+    text-align: center;
+    
+    
+}
+
+footer {
+    height: 50px;
+    font-weight: bold;
+    background-color: #a8caba;
+    text-align:left;
+    position: relative;
+    
+}
+
+.ul-section3-index {
+    list-style: none;   
+    
+}
+
+.section-preguntas {
+    text-align: center;
+}
+
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario en la página */
+    padding: 20px; /* Espaciado interno del formulario */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+label {
+    display: block; /* Hace que las etiquetas se muestren en una línea */
+    margin-bottom: 5px; /* Espaciado inferior de las etiquetas */
+}
+
+input, textarea {
+  width: 100%; /* Ocupa todo el ancho del contenedor padre */
+  padding: 8px; /* Espaciado interno de los campos de entrada */
+  margin-bottom: 10px; /* Espaciado inferior de los campos de entrada */
+  box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total */
+}
+
+button {
+    background-color: #a8caba; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+button:hover {
+    background-color: #ddd; /* Cambia el color de fondo al pasar por encima */
+}
+
+.section-contacto {
+    max-width: 400px; /* Ancho máximo de la sección */
+    margin: 0 auto; /* Centrar la sección en la página */
+    padding: 20px; /* Espaciado interno de la sección */
+    border: 1px solid #ddd; /* Borde de la sección */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.h2-contacto {
+    color: #333; /* Color del texto del encabezado */
+    font-size: 1.5em; /* Tamaño del texto del encabezado */
+    margin-bottom: 10px; /* Espaciado inferior del encabezado */
+}
+  
+.p-contacto {
+    color: #555; /* Color del texto del párrafo */
+    margin-bottom: 5px; /* Espaciado inferior del párrafo */
+}
+  
+.ul-contacto {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+    display: flex; 
+}
+  
+.li-contacto {
+    margin-right: 90px; /* Espaciado inferior de los elementos de lista */
+
+}
+  
+.a-contacto {
+    color: #0066cc; /* Color del texto del enlace */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+  
+.a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón por encima */
+}
+
+.body-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+video {
+    width: 640px;
+    height: 360px;
+    padding-left: 25%;
+    
+}
+  
